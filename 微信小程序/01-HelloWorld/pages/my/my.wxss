@@ -1,0 +1,15 @@
+/* pages/my/my.wxss */
+.bg{
+	width: 100%;
+	height: 10rem;
+	background-color: #F60;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.bg image{
+	display: block;
+	width: 100px;
+	height: 100px;
+}

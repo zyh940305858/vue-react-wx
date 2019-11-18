@@ -1,0 +1,94 @@
+{
+	"list":[
+		{
+			"title":"十元专区",
+			"content":[
+				{
+					"name":"十元专区1",
+					"price":786,
+					"pic":"https://dummyimage.com/100x100"
+				},
+				{
+					"name": "十元专区2",
+					"price": 87,
+					"pic": "https://dummyimage.com/100x100"
+				},
+				{
+					"name": "十元专区3",
+					"price": 65,
+					"pic": "https://dummyimage.com/100x100"
+				},
+				{
+					"name": "十元专区4",
+					"price": 456,
+					"pic": "https://dummyimage.com/100x100"
+				},
+				{
+					"name": "十元专区5",
+					"price": 4561,
+					"pic": "https://dummyimage.com/100x100"
+				}
+			]
+		},
+		{
+			"title": "爆款优品",
+			"content": [
+				{
+					"name": "爆款优品1",
+					"price": 4585,
+					"pic": "https://dummyimage.com/100x100"
+				},
+				{
+					"name": "爆款优品2",
+					"price": 64,
+					"pic": "https://dummyimage.com/100x100"
+				},
+				{
+					"name": "爆款优品3",
+					"price": 45,
+					"pic": "https://dummyimage.com/100x100"
+				},
+				{
+					"name": "爆款优品4",
+					"price": 45,
+					"pic": "https://dummyimage.com/100x100"
+				},
+				{
+					"name": "爆款优品5",
+					"price": 458,
+					"pic": "https://dummyimage.com/100x100"
+				}
+			]
+		},
+		{
+			"title": "盒马生鲜",
+			"content": [
+				{
+					"name": "盒马生鲜1",
+					"price": 465,
+					"pic": "https://dummyimage.com/100x100"
+				},
+				{
+					"name": "盒马生鲜2",
+					"price": 45,
+					"pic": "https://dummyimage.com/100x100"
+				},
+				{
+					"name": "盒马生鲜3",
+					"price": 12,
+					"pic": "https://dummyimage.com/100x100"
+				},
+				{
+					"name": "盒马生鲜4",
+					"price": 213,
+					"pic": "https://dummyimage.com/100x100"
+				},
+				{
+					"name": "盒马生鲜5",
+					"price": 51,
+					"pic": "https://dummyimage.com/100x100"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+<!--index.wxml-->
+
+<!-- 轮播图 -->
+<!-- 轮播图默认有150px高度，可以根据自己的需求调整，swiper需要和swiper-item配合使用 -->
+<!-- autoplay自动轮播 indictor-dots显示小圆点 设置小圆点颜色 interval轮播间隔时间默认为5000ms -->
+<swiper autoplay indicator-dots indicator-color='white' interval='3000'>
+  <swiper-item>
+    <image src="../../assets/images/swiper_1.jpg" mode='scaleToFill'></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="../../assets/images/swiper_2.jpg" mode='scaleToFill'></image>
+  </swiper-item>
+</swiper>
+
+<!-- 九宫格 -->
+<view class='categories'>
+  <block wx:if="{{list.length>0}}">
+    <navigator url="/pages/list/list?title={{c.name}}&index={{i+1}}"  wx:for="{{list}}" wx:for-item="c" wx:for-index="i">
+      <view class='category'>
+        <image src="{{c.icon}}"></image>
+        <text>{{c.name}}</text>
+      </view>
+    </navigator>
+  </block>
+  <view class="empty" wx:else>
+    暂无数据
+  </view>
+</view>

@@ -1,0 +1,54 @@
+.item{
+  display: flex;
+  border-bottom: 1px solid #CCC;
+}
+
+.item .pic{
+  width: 25%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.item .pic image{
+  width: 75px;
+  height: 75px;
+  padding: 12.5px;
+}
+
+.item .content{
+  width: 70%;
+  box-sizing: border-box;
+  padding-top: 5px;
+}
+
+.item .content .block{
+  height: 30px;
+  line-height: 30px;
+  display: flex;
+}
+
+.item .content .companyName{
+  height: 30px;
+  line-height: 30px;
+  color: #9a9999;
+}
+
+.item .content .block .jobName{
+  flex: 1;
+}
+
+.item .content .block .jobSalary{
+  flex: 1;
+  text-align: right;
+  color: red;
+}
+
+.item .content .block .requrie{
+  color: #9a9999;
+}
+
+.item .content .block .createTime{
+  text-align: right;
+  flex: 1;
+  color: #9a9999;
+}

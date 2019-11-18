@@ -1,0 +1,7 @@
+{
+	"navigationBarTitleText":"拉勾网",
+	"usingComponents": {
+		"Search": "/components/Search/Search",
+		"List":"/components/List/List"
+	}
+}

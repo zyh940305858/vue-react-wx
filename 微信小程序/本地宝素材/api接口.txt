@@ -1,0 +1,6 @@
+所有分类:
+https://yantianfeng.com/api/local/categories
+
+分类->商铺列表
+https://yantianfeng.com/api/local/shopList?categoryId=1
+

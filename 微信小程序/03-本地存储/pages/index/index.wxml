@@ -1,0 +1,7 @@
+<view class='content'>
+<view class='food' wx:for="{{foodArr}}">
+{{item}}</view>
+</view>
+<input placeholder='请输入食物' bindinput='saveInput'></input>
+<button bindtap='set'>保存食物</button>
+<button bindtap='get'>获取食物</button>

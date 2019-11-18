@@ -1,0 +1,25 @@
+header {
+  width: 100%;
+  background-color: #fe7c13;
+  color: black;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 4rem;
+}
+
+.swiper-container .swiper-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-container .swiper-wrapper .swiper-slide {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-container .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+}

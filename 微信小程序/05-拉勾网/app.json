@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/message/message",
+    "pages/user/user",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1fc8a1",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./assets/images/icon_home.png",
+        "selectedIconPath": "./assets/images/icon_home_curr.png",
+        "text": "拉勾网"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "iconPath": "./assets/images/icon_message.png",
+        "selectedIconPath": "./assets/images/icon_message_curr.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "./assets/images/icon_user.png",
+        "selectedIconPath": "./assets/images/icon_user_curr.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

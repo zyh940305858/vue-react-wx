@@ -1,0 +1,3 @@
+<Search class="search"></Search>
+<List jobs="{{jobs}}" class="list"></List>
+

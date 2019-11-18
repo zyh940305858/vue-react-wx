@@ -1,0 +1,16 @@
+<view class="item">
+  <view class="pic">
+    <image mode="aspectFill" src="{{item.jobUrl}}"></image>
+  </view>
+  <view class="content">
+    <view class="block">
+      <text class="jobName">{{item.jobName}}</text>
+      <text class="jobSalary">{{item.jobSalary}}</text>
+    </view>
+    <text class="companyName">{{item.companyName}}</text>
+    <view class="block">
+      <text class="requrie">{{item.requrie}}</text>
+      <text class="createTime">{{item.createTime}}</text>
+    </view>
+  </view>
+</view>

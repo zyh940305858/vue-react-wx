@@ -1,0 +1,71 @@
+.style{
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.picker{
+  margin: 15px auto;
+  width: 40%;
+  height: 40px;
+  border: 1px solid #FFF;
+  border-radius: 20px;
+}
+
+.picker text{
+  display: block;
+  margin-left: 10%;
+  margin-top: 5px;
+  width: 80%;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 15px;
+  color: white;
+  background-color: #006161;
+  text-align: center;
+}
+
+.list{
+  height: 180px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.list view{
+  height: 45px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #CCC;
+  display: flex;
+  line-height: 45px;
+  color: white;
+  font-size: 18px;
+}
+
+.list .iconfont{
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: white;
+}
+
+.list view picker{
+  flex: 1;
+}
+
+.list view input{
+  flex: 1;
+  height: 45px;
+  padding-left: 10px;
+  line-height: 45px;
+}
+
+.btn{
+  width: 80%;
+  margin: 45px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+}

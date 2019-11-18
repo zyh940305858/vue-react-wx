@@ -1,0 +1,15 @@
+<block wx:if="{{list.length > 0}}">
+  <view class='list'>
+	<view class='shop' wx:for="{{list}}">
+	<view class='pic'><image mode='aspectFill' src='{{item.images[0]}}'></image></view>
+	<view class='text'>
+		<view>{{item.name}}</view>
+		<view>{{item.phone}}</view>
+		<view>{{item.address}}</view>
+	</view>
+	</view>
+  </view>
+</block>
+<view wx:else class='empty'>
+该分类下暂无数据
+</view>

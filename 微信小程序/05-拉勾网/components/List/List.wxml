@@ -1,0 +1,8 @@
+<view>
+<text class="h3">为你推荐好的职位</text>
+<view wx:for="{{jobs}}">
+<navigator url="/pages/detail/detail">
+<Item item="{{item}}"></Item>
+</navigator>
+</view>
+</view>
