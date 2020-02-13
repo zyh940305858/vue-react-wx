@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/date/date",
+    "pages/my/my"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "人生",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "gray",
+    "selectedColor": "red",
+    "position": "bottom",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "人生进度"
+    },{
+      "pagePath": "pages/date/date",
+      "text": "日期计算"
+    },{
+      "pagePath": "pages/my/my",
+      "text": "我的"
+    }]
+  }
+}

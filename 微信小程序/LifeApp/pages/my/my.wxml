@@ -1,0 +1,15 @@
+<view class="free-panel-title"></view>
+    <view class="free-WaterfallFlow">
+      <block>
+        <view class="flex-wrap" wx:for="{{imglist}}" wx:key='{{index}}' 
+        wx:if="{{index%2!=''}}">
+          <image mode="widthFix" src="{{item}}"></image>
+        </view>
+      </block>
+      <block>
+        <view class="flex-wrap" wx:for="{{imglist}}" wx:key='{{index}}'
+        wx:if="{{index%2==''}}">
+          <image mode="widthFix" src="{{item}}"></image>
+        </view>
+      </block>
+    </view>
